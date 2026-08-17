@@ -21,6 +21,8 @@ html {
 
 .container {
     display: flex;
+    /* justify-content: center; */
+    gap: 40px;
 }
 
 .banner-container {
@@ -69,6 +71,36 @@ html {
 .right-side {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    justify-content: center;
+    width: 650px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.hero-text {
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 160px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fffefe;
+    background-color: #596d48;
+}
+
+.login {
+    font-size: 16px;
 }
 
