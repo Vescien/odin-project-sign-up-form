@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('font/Norse-Bold.woff2') format('woff2'),
+        url('font/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     box-sizing: border-box;
-    
 }
 
 *,
@@ -11,11 +19,46 @@ html {
     margin: 0;
 }
 
-.left {
+.banner-container {
     height: 100vh;
-    overflow: hidden;
+    position: absolute;
 }
 
 .hero-banner {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
     display: block;
 }
+
+.banner-card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+}
+
+.banner-logo {
+    height: 120px;
+}
+
+.banner-logo-text {
+    font-family: "Norse", sans-serif;
+    color: #fffefe;
+    font-size: 100px;
+}
+
+.banner-footer {
+    position: absolute;
+    color: #fffefed8;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+}
+
