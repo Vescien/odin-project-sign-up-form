@@ -132,6 +132,8 @@ button {
 .form-container input {
     height: 30px;
     width: 260px;
+    font-size: 16px;
+    padding-left: 4px;
     border: 1px solid black;
     border-radius: 4px;
 }
