@@ -19,9 +19,13 @@ html {
     margin: 0;
 }
 
+.container {
+    display: flex;
+}
+
 .banner-container {
     height: 100vh;
-    position: absolute;
+    position: relative;
 }
 
 .hero-banner {
@@ -60,5 +64,11 @@ html {
     left: 50%;
     bottom: 10px;
     transform: translate(-50%);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
 }
 
