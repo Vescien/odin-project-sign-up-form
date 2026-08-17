@@ -120,6 +120,15 @@ button {
     font-size: 14px;
 }
 
+.hero-text,
+.sub-text,
+button,
+.form-title,
+.form-left,
+.login {
+    margin-left: 40px;
+}
+
 .login {
     font-size: 16px;
 }
@@ -134,15 +143,16 @@ button {
     width: 260px;
     font-size: 16px;
     padding-left: 4px;
-    border: 1px solid black;
+    outline: none;
+    border: 2px solid #E5E7EB;
     border-radius: 4px;
 }
 
-.hero-text,
-.sub-text,
-button,
-.form-title,
-.form-left,
-.login {
-    margin-left: 40px;
+.form-container input:focus {
+    border: 2px solid rgb(0, 89, 255);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-container input[type="password"]:user-invalid {
+    border: 2px solid rgb(255, 0, 0);
 }
