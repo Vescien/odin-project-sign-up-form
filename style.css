@@ -83,7 +83,7 @@ h1 {
     width: 650px;
 }
 
-form {
+.form-body {
     width: 100%;
     background-color: #ffffff;
     margin-top: 60px;
@@ -93,7 +93,7 @@ form {
 }
 
 .form-title {
-    margin: 20px 0 25px;
+    padding: 20px 0 25px;
 }
 
 button {
