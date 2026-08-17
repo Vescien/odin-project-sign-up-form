@@ -21,8 +21,6 @@ html {
 
 .container {
     display: flex;
-    /* justify-content: center; */
-    gap: 40px;
 }
 
 .banner-container {
@@ -72,7 +70,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 650px;
+    background-color: #f9f9f9;
+    flex: 1;
 }
 
 h1 {
@@ -81,9 +80,12 @@ h1 {
 
 .hero-text {
     margin-bottom: 30px;
+    width: 650px;
 }
 
 form {
+    width: 100%;
+    background-color: #ffffff;
     margin-top: 60px;
     margin-bottom: 30px;
 }
@@ -126,4 +128,13 @@ button {
     width: 260px;
     border: 1px solid black;
     border-radius: 4px;
+}
+
+.hero-text,
+.sub-text,
+button,
+.form-title,
+.form-left,
+.login {
+    margin-left: 40px;
 }
