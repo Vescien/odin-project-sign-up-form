@@ -124,22 +124,18 @@ button:hover {
 }   
 
 .form-container {
-    display: flex;
-    gap: 60px;
-}
-
-.form-left, .form-right {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
     font-size: 14px;
+    margin-left: 40px;
+    max-width: 650px;
 }
 
 .hero-text,
 .sub-text,
 button,
 .form-title,
-.form-left,
 .login {
     margin-left: 40px;
 }
