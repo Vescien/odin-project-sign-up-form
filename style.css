@@ -89,7 +89,7 @@ h1 {
 
 .hero-text {
     margin-bottom: 30px;
-    width: 650px;
+    width: 700px;
 }
 
 .form-body {
@@ -106,15 +106,15 @@ h1 {
 }
 
 button {
-    width: 160px;
-    padding: 10px 20px;
-    font-size: 14px;
+    width: 200px;
+    padding: 16px 40px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 20px;
     border: none;
     border-radius: 10px;
     color: #fffefe;
-    background-color: #596d48;
+    background-color: #596D48;
 }
 
 .form-container {
