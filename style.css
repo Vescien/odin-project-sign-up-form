@@ -115,7 +115,14 @@ button {
     border-radius: 10px;
     color: #fffefe;
     background-color: #596D48;
+    transition: all 0.15s ease-in-out;
 }
+
+button:hover {
+    background-color: #5e8351;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}   
 
 .form-container {
     display: flex;
