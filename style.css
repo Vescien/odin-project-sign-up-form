@@ -7,6 +7,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font/OpenSans-Regular.woff2') format('woff2'),
+        url('font/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -153,6 +162,14 @@ button,
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.form-container input[type="password"]:user-invalid {
+.form-container input[type="password"]:invalid {
     border: 2px solid rgb(255, 0, 0);
+}
+
+h1, p, label {
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: inherit;
 }
